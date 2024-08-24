@@ -13,6 +13,9 @@ This project involves the implementation of a multi-label classification model t
 ```python
 pip install pandas scikit-learn scipy joblib transformers torch streamlit streamlit-lottie numpy
 ```
+## Dataset Description
+https://www.kaggle.com/datasets/shivamparab/amazon-electronics-reviews
+Amazon Reviews Dataset: This is a subset of Amazon reviews from the Electronics category, spanning May 1996 - July 2014.
 ## File Description
 ### Step1ofbert.ipy:
 #### Data Loading & Preprocessing:
