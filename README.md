@@ -1,0 +1,2 @@
+# Multi-Label-Classification-of-Customer-Support-Tickets-with-Fine-Tuned-BERT
+This project involves the implementation of a multi-label classification model to automatically categorize customer support tickets based on their textual content. The model is built using the BERT (Bidirectional Encoder Representations from Transformers) architecture, fine-tuned on a labeled dataset of customer support tickets.
