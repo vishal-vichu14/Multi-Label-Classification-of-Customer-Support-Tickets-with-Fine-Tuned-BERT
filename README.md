@@ -1,5 +1,17 @@
 # Multi-Label-Classification-of-Customer-Support-Tickets-with-Fine-Tuned-BERT
 This project involves the implementation of a multi-label classification model to automatically categorize customer support tickets based on their textual content. The model is built using the BERT (Bidirectional Encoder Representations from Transformers) architecture, fine-tuned on a labeled dataset of customer support tickets.
+```bash pip install pandas scikit-learn scipy joblib transformers torch streamlit streamlit-lottie numpy ```
+## Packages to install
+1. pip install pandas
+2. pip install scikit-learn
+3. pip install scipy
+4. pip install joblib
+5. pip install transformers
+6. pip install torch
+7. pip install streamlit
+8. pip install streamlit-lottie
+9. pip install numpy
+
 ## 1. Step1ofbert.ipy:
 Data Loading & Preprocessing:
 Loaded the dataset from a JSON file.
