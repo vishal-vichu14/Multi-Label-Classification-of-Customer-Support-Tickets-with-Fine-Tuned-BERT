@@ -11,7 +11,9 @@ This project involves the implementation of a multi-label classification model t
 7. pip install streamlit
 8. pip install streamlit-lottie
 9. pip install numpy
-```python pip install pandas scikit-learn scipy joblib transformers torch streamlit streamlit-lottie numpy ```
+```python
+pip install pandas scikit-learn scipy joblib transformers torch streamlit streamlit-lottie numpy
+```
 ## 1. Step1ofbert.ipy:
 Data Loading & Preprocessing:
 Loaded the dataset from a JSON file.
