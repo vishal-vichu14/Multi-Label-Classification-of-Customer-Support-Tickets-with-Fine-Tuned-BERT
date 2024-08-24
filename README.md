@@ -19,10 +19,10 @@ Amazon Reviews Dataset: This is a subset of Amazon reviews from the Electronics 
 ## File Description
 ### Step1ofbert.ipy:
 #### Data Loading & Preprocessing:
-Loaded the dataset from a JSON file.
-Combined reviewText and summary into a context column.
-Took a 10% sample of the data for analysis.
-Used TfidfVectorizer to convert the context into a TF-IDF matrix.
+* Loaded the dataset from a JSON file.
+* Combined reviewText and summary into a context column.
+* Took a 10% sample of the data for analysis.
+* Used TfidfVectorizer to convert the context into a TF-IDF matrix.
 #### Output:
 Saved sampled data and TF-IDF vectors to CSV files.
 Saved the trained TF-IDF vectorizer as a .pkl file for future use.
