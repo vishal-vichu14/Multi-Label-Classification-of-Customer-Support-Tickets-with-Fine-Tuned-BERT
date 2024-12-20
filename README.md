@@ -1,15 +1,16 @@
 # Multi-Label-Classification-of-Customer-Support-Tickets-with-Fine-Tuned-BERT
 This project involves the implementation of a multi-label classification model to automatically categorize customer support tickets based on their textual content. The model is built using the BERT (Bidirectional Encoder Representations from Transformers) architecture, fine-tuned on a labeled dataset of customer support tickets.
 ## Packages to install
-1. pip install pandas
-2. pip install scikit-learn
-3. pip install scipy
-4. pip install joblib
-5. pip install transformers
-6. pip install torch
-7. pip install streamlit
-8. pip install streamlit-lottie
-9. pip install numpy
+1.  pip install pandas
+2.  pip install scikit-learn
+3.  pip install scipy
+4.  pip install joblib
+5.  pip install transformers
+6.  pip install torch
+7.  pip install streamlit
+8.  pip install streamlit-lottie
+9.  pip install numpy
+10. pip install nltk
 ```python
 pip install pandas scikit-learn scipy joblib transformers torch streamlit streamlit-lottie numpy
 ```
@@ -22,7 +23,7 @@ Amazon Reviews Dataset: This is a subset of Amazon reviews from the Electronics 
 * Load Data: The code reads JSON data from a specified file path into a Pandas DataFrame and prints a confirmation message.
 * Combine Columns: It creates a new column 'context' by concatenating 'reviewText' and 'summary' to provide a fuller context for each review.
 * Sample Data: It selects a 10% sample of the data (specified size) for further analysis and extracts the 'context' column from the sampled data.
-* Preprocess Text: It defines and applies a preprocessing function to clean and prepare the text data. This function converts text to lowercase, removes short words and punctuation, tokenizes, removes stopwords, applies stemming, and performs lemmatization.
+* Preprocess Text: It defines and applies a preprocessing function to clean and prepare the text data using NLTK. This function converts text to lowercase, removes short words and punctuation, tokenizes, removes stopwords, applies stemming, and performs lemmatization.
 * Vectorize Text: It uses a TF-IDF Vectorizer to convert the preprocessed text data into numerical features, which are then stored in a DataFrame.
 * Save Results: It saves the sampled data, TF-IDF features, and the vectorizer model to CSV and pickle files for future use.
 #### Output:
