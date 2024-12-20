@@ -12,7 +12,7 @@ This project involves the implementation of a multi-label classification model t
 9.  pip install numpy
 10. pip install nltk
 ```python
-pip install pandas scikit-learn scipy joblib transformers torch streamlit streamlit-lottie numpy
+pip install pandas scikit-learn scipy joblib transformers torch streamlit streamlit-lottie numpy nltk
 ```
 ## Dataset Description
 https://www.kaggle.com/datasets/shivamparab/amazon-electronics-reviews
